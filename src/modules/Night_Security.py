@@ -7,7 +7,7 @@ import pygame
 pygame.init()
 
 # Load sound effects
-face_detected_sound = pygame.mixer.Sound('face_detected.wav')  # Replace 'face_detected.wav' with your sound file
+face_detected_sound = pygame.mixer.Sound('/home/akz/programming/IOT_SRS_Deployment/src/modules/face_detected.wav')  # Replace 'face_detected.wav' with your sound file
 
 # Function to play face detected sound
 def play_face_detected_sound():

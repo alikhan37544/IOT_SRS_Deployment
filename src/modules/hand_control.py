@@ -48,8 +48,8 @@ root = tk.Tk()
 root.title("Virtual Bulb")
 
 # Load images for bulb on and off states
-bulb_on_image = tk.PhotoImage(file="/home/akz/Programming/Raspi/IOT_SRS_Deployment/src/modules/bulb_on.png")
-bulb_off_image = tk.PhotoImage(file="/home/akz/Programming/Raspi/IOT_SRS_Deployment/src/modules/bulb_on.png")
+bulb_on_image = tk.PhotoImage(file="/home/akz/programming/IOT_SRS_Deployment/src/modules/bulb_on.png")
+bulb_off_image = tk.PhotoImage(file="/home/akz/programming/IOT_SRS_Deployment/src/modules/bulb_off.png")
 
 # Create a canvas to display the bulb
 bulb_canvas = tk.Canvas(root, width=bulb_on_image.width(), height=bulb_on_image.height())
